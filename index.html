@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="images/background.jpg" alt="background">
+        <div class="main">
+            <form name="form">
+                <input class="textview" name='textview' type="textview" value="">
+            </form>
+            <table>
+                <tr>
+                    <td><input class="button special" type="button" name="C" id="C" value="C"></td>
+                    <td><input class="button special" type="button" name="back" id="back" value="<"></td>
+                    <td><input class="button" type="button" name="div" id="div" value="/"></td>
+                    <td><input class="button" type="button" name="multiplication" id="multiplicaton" value="*"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" name="7" id="7" value="7"></td>
+                    <td><input class="button" type="button" name="8" id="8" value="8"></td>
+                    <td><input class="button" type="button" name="9" id="9" value="9"></td>
+                    <td><input class="button" type="button" name="minus" id="minus" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" name="4" id="4" value="4"></td>
+                    <td><input class="button" type="button" name="5" id="5" value="5"></td>
+                    <td><input class="button" type="button" name="6" id="6" value="6"></td>
+                    <td><input class="button" type="button" name="plus" id="plus" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" name="1" id="1" value="1"></td>
+                    <td><input class="button" type="button" name="2" id="2" value="2"></td>
+                    <td><input class="button" type="button" name="3" id="3" value="3"></td>
+                    <td rowspan="2"><input class="button special" type="button" name="equal" id="equal" value="="></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="button" type="button" name="0" id="zero" value="0"></td>
+                    <td><input class="button" type="button" name="dot" id="dot" value="."></td>
+                </tr>
+            </table>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+        <script src="scripts/calculator.js" charset="utf-8"></script>
+    </body>
+</html>

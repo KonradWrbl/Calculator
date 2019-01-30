@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ border: 0;
+ font-size: 30px;
+}
+
+/* body {
+    background-image: url("images/background-img-9.jpg");
+} */
+
+img {
+    position: relative;
+    height: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    cursor: pointer;
+    background: rgba(100, 134, 143, 0.8);
+}
+
+#zero {
+    width: 150px;
+}
+
+#equal {
+    height: 150px;
+}
+
+.textview {
+    font-size: 35px;
+    width: 306px;
+    padding: 10px;
+    margin-left: 5px;
+    background: rgba(177, 187, 187, 0.8);
+}
+
