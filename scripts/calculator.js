@@ -7,7 +7,7 @@ $('.button:not(.special)').on('click', function(e) {
 $('#equal').on('click', function() {
     let num = document.form.textview.value;
     if(num) {
-        document.form.textview.value = Math.round(eval(num)*1000000000)/1000000000;
+        document.form.textview.value = eval(num).toFixed(8);
     }
 });
 
